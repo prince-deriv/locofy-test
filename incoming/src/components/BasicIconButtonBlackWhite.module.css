@@ -1,0 +1,47 @@
+.bgFocus {
+  width: 40px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  border-radius: var(--br-sm);
+  border: 2px solid var(--color-dodgerblue);
+  box-sizing: border-box;
+  height: 40px;
+  z-index: 1;
+}
+.root {
+  width: 32px;
+  box-shadow: -16px 0px 16px rgba(255, 255, 255, 0.72);
+  border-radius: var(--br-xs);
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 32px;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  color: var(--core-color-solid-slate-1400);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}
+.root[data-size="lg"][data-state="default"][data-style="tertiary"][data-width="hug content"] {
+  box-shadow: unset;
+  border-radius: var(--br-base);
+  max-width: 48px;
+  max-height: 48px;
+  margin: 0 !important;
+  z-index: 2;
+}
+.root[data-size="lg"][data-state="default"][data-style="tertiary"][data-width="hug content"]
+  .bgFocus {
+  width: 56px;
+  top: calc(50% - 28px);
+  left: calc(50% - 28px);
+  border-radius: var(--br-lg);
+  height: 56px;
+}

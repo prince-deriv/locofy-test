@@ -1,0 +1,18 @@
+.parameter2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--core-color-solid-slate-50);
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

@@ -1,0 +1,20 @@
+.label {
+  height: 18px;
+  width: 6px;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.inputFieldMarkerCaption {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--component-fieldmarker-label-color-required);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

@@ -1,0 +1,22 @@
+.derivTraderIcon {
+  height: 24px;
+  width: 110.7px;
+  position: relative;
+}
+.iconDropdown {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menuPlatform {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}

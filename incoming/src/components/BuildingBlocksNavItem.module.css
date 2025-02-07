@@ -1,0 +1,40 @@
+.icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-base);
+}
+.container {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.buildingBlocksnavItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs) var(--padding-9xs);
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--schemes-on-surface-variant);
+  font-family: var(--m3-body-small);
+}

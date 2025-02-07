@@ -1,0 +1,30 @@
+.bgFocus {
+  width: 40px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  border-radius: var(--br-sm);
+  border: 2px solid var(--color-dodgerblue);
+  box-sizing: border-box;
+  height: 40px;
+  z-index: 1;
+}
+.buttonMinus {
+  width: 32px;
+  border-radius: var(--br-xs);
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 32px;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  color: var(--core-color-solid-slate-1400);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}

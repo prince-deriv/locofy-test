@@ -1,0 +1,113 @@
+.touchChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--system-light-7-secondary-background);
+  width: 112px;
+  height: 72.9px;
+}
+.intersectIcon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80.1px;
+  height: 72.9px;
+}
+.touch {
+  position: absolute;
+  top: calc(50% - 2.95px);
+  left: 7.6px;
+}
+.highsLowsTouch {
+  position: absolute;
+  top: calc(50% - 20.45px);
+  left: 63.1px;
+  width: 41px;
+  height: 41px;
+  overflow: hidden;
+}
+.touch1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 112px;
+  height: 72.9px;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 56px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-300);
+  width: 112px;
+  height: 73px;
+  overflow: hidden;
+}
+.playIcon {
+  position: absolute;
+  top: calc(50% - 20.5px);
+  left: calc(50% - 20px);
+  border-radius: var(--br-981xl);
+  background-color: var(--core-color-solid-slate-50);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-9xs) var(--padding-11xs) var(--padding-9xs)
+    var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-xl-regular-default-size);
+  color: var(--core-color-solid-slate-1400);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}
+.shot2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 112px;
+  height: 73px;
+}
+.video {
+  width: 112px;
+  position: relative;
+  box-shadow: var(--core-elevation-shadow-130);
+  border-radius: var(--br-5xs);
+  height: 72.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.howToTrade {
+  position: relative;
+  line-height: 18px;
+}
+.watchThisVideo {
+  width: 328px;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.desc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}
+.thumbnail {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-4xs-5);
+  color: var(--color-darkslategray);
+  font-family: var(--font-ubuntu);
+}

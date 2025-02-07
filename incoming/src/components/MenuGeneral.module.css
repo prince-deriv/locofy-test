@@ -1,0 +1,27 @@
+.icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+}
+.menuHome {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

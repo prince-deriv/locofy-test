@@ -1,0 +1,47 @@
+.selectedIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+}
+.switcherLabel {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.stateLayer {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.container {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-81xl) 0px 0px var(--br-81xl);
+  background-color: var(--m3-sys-light-secondary-container);
+  border: 1px solid var(--m3-sys-light-outline);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.segmentStart {
+  flex: 1;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  color: var(--m3-sys-light-on-secondary-container);
+  font-family: var(--m3-body-small);
+}

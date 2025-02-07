@@ -1,0 +1,24 @@
+.div {
+  width: 12px;
+  height: 30px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+}
+.selector {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--core-color-solid-slate-50);
+  border: 1px solid var(--core-color-opacity-black-100);
+  box-sizing: border-box;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-smi);
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-xl-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

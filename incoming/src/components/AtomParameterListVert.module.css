@@ -1,0 +1,68 @@
+.label {
+  height: 18px;
+  width: 107px;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.labelMarker {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.div {
+  flex: 1;
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--mobile-semantic-typography-body-xl-regular-default-size);
+}
+.lastDigitPrediction {
+  width: 360px;
+  border-radius: var(--br-5xs);
+  background-color: var(--core-color-opacity-black-75);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+}
+.atomParameterListVert {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

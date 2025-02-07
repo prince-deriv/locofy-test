@@ -1,0 +1,26 @@
+.left {
+  width: 0px;
+  position: relative;
+  background-color: var(--color-blueviolet);
+  height: 0px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.right {
+  width: 0px;
+  position: relative;
+  background-color: var(--color-blueviolet);
+  height: 0px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.resizer {
+  background-color: var(--core-color-solid-slate-50);
+  height: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-325xl);
+  z-index: 0;
+}

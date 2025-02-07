@@ -1,0 +1,17 @@
+.icon {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(50% - 10px);
+  line-height: 32px;
+  font-weight: 300;
+}
+.icon1 {
+  flex: 1;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-xl-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}

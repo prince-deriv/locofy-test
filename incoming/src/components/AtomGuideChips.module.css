@@ -1,0 +1,109 @@
+.label {
+  height: 22px;
+  width: 100px;
+  position: relative;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  line-height: 22px;
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+  color: var(--core-color-solid-slate-50);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.bgFocus {
+  width: calc(100% + 8px);
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% + 8px);
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  border-radius: var(--br-77xl);
+  border: 2px solid var(--color-dodgerblue);
+  box-sizing: border-box;
+  display: none;
+  z-index: 2;
+}
+.labelTag {
+  position: relative;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  line-height: 22px;
+  display: none;
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+  color: var(--core-color-solid-slate-50);
+  text-align: left;
+  z-index: 3;
+}
+.chipInstance {
+  cursor: pointer;
+  border: none;
+  padding: 0px var(--padding-base);
+  background-color: var(--core-color-solid-slate-1400);
+  height: 32px;
+  border-radius: var(--br-77xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xs);
+  min-height: 32px;
+  max-height: 32px;
+  z-index: 6;
+}
+.navButtonLeft {
+  width: 64px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0px;
+  left: -32px;
+  background: linear-gradient(-88.07deg, rgba(255, 255, 255, 0), #fff 49.98%);
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-base);
+  box-sizing: border-box;
+  z-index: 10;
+  text-align: center;
+  color: var(--core-color-solid-slate-1400);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}
+.navButtonRight {
+  height: 32px;
+  width: 64px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0px;
+  left: 416px;
+  background: linear-gradient(88.07deg, rgba(255, 255, 255, 0), #fff 50.02%);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px var(--padding-base) 0px 0px;
+  box-sizing: border-box;
+  z-index: 11;
+}
+.atomGuideChips {
+  align-self: stretch;
+  overflow-x: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

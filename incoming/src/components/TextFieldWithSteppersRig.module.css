@@ -1,0 +1,144 @@
+.label {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  color: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.labelMarker {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.labelLeft {
+  height: 24px;
+  width: 39px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.containerLabelLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--core-color-opacity-black-300);
+}
+.input {
+  position: relative;
+  line-height: 24px;
+}
+.placeholderInputCursor {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.labelRight {
+  height: 24px;
+  width: 39px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.containerLabelRight {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.labelLeftPlaceholderInp {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+}
+.labelPlaceholderInputCur {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonPlusButtonMinus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  color: var(--core-color-solid-slate-1400);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}
+.field {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--core-color-opacity-black-75);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.message {
+  width: 301px;
+  position: relative;
+  line-height: 18px;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  flex-shrink: 0;
+}
+.characterCounter {
+  height: 18px;
+  width: 19px;
+  position: relative;
+  line-height: 18px;
+  text-align: right;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.message1 {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  color: var(--core-color-opacity-black-400);
+}
+.textFieldWithSteppersRig {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

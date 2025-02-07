@@ -1,0 +1,21 @@
+.icon {
+  height: 22px;
+  width: 9px;
+  position: relative;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  color: var(--core-color-solid-slate-1400);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}

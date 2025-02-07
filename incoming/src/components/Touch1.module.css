@@ -1,0 +1,39 @@
+.touch1 {
+  width: 448px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.ifYouSelectContainer {
+  height: 44px;
+  width: 448px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.optionDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+}
+.touch2 {
+  width: 248px;
+  position: relative;
+  height: 161.4px;
+}
+.touch {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

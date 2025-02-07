@@ -1,0 +1,102 @@
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label1 {
+  height: 18px;
+  width: 35px;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.label2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.value {
+  height: 18px;
+  width: 37px;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.value1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: right;
+}
+.details {
+  width: 148px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+}
+.titleDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.root {
+  width: 240px;
+  border-radius: var(--br-base);
+  background-color: var(--color-mediumseagreen);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  min-height: 56px;
+  max-height: 56px;
+  text-align: right;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-solid-slate-50);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}
+.root[data-state="default"][data-type="red"] {
+  background-color: #de0040;
+  flex-shrink: 0;
+}
+.root[data-state="default"][data-type="red"] .label {
+  height: 24px;
+  width: 45px;
+  display: inline-block;
+}
+.root[data-state="default"][data-type="red"] .details {
+  width: unset;
+  display: flex;
+  align-self: stretch;
+}
+.root[data-state="default"][data-type="red"] .label2 {
+  flex: unset;
+  justify-content: flex-end;
+}
+.root[data-state="default"][data-type="red"] .label1 {
+  text-align: right;
+}
+.root[data-state="default"][data-type="red"] .value1 {
+  justify-content: flex-end;
+  flex: 1;
+}
+.root[data-state="default"][data-type="red"] .value {
+  text-align: left;
+}

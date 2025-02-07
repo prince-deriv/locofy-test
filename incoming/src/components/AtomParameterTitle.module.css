@@ -1,0 +1,68 @@
+.setYourTrade {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  line-height: 22px;
+  font-weight: 700;
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+  color: var(--core-color-solid-slate-1400);
+  text-align: center;
+  z-index: 1;
+}
+.bgFocus {
+  width: calc(100% + 8px);
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% + 8px);
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  border-radius: var(--br-sm);
+  border: 2px solid var(--color-dodgerblue);
+  box-sizing: border-box;
+  display: none;
+  z-index: 2;
+}
+.basicButtonBlackwhite {
+  cursor: pointer;
+  border: 1px solid var(--core-color-solid-slate-1400);
+  padding: 0px var(--padding-xs);
+  background-color: transparent;
+  height: 32px;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-7xs);
+  min-width: 64px;
+  min-height: 32px;
+  max-height: 32px;
+}
+.atomParameterTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

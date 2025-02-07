@@ -1,0 +1,18 @@
+.contractSwitcher {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--core-color-opacity-black-75);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xs);
+  box-sizing: border-box;
+  min-height: 56px;
+  max-height: 56px;
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

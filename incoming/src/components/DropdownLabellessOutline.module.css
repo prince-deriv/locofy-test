@@ -1,0 +1,76 @@
+.containerIconLeft {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.placeholder {
+  width: 264px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.placeholderItemCursor {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.field {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--core-color-solid-slate-50);
+  border: 1px solid var(--core-color-opacity-black-100);
+  box-sizing: border-box;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  gap: var(--gap-5xs);
+  z-index: 0;
+}
+.message {
+  width: 328px;
+  position: relative;
+  line-height: 18px;
+  display: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.message1 {
+  width: 360px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--core-color-opacity-black-400);
+}
+.dropdownLabellessOutline {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-opacity-black-300);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

@@ -1,0 +1,28 @@
+.b {
+  width: 6px;
+  height: 14px;
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+}
+.badgeNotification {
+  position: absolute;
+  height: 58.33%;
+  width: 58.33%;
+  top: 0%;
+  right: 0%;
+  bottom: 41.67%;
+  left: 41.67%;
+  border-radius: var(--br-base);
+  background-color: var(--status-light-danger);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--desktop-extra-small-xs-bold-size);
+  color: var(--core-color-solid-slate-50);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

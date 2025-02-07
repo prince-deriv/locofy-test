@@ -1,0 +1,120 @@
+.label {
+  position: relative;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.addonLeft {
+  background-color: var(--core-color-opacity-black-75);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+}
+.input {
+  position: relative;
+  line-height: 24px;
+}
+.placeholderInputCursor {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield {
+  flex: 1;
+  background-color: var(--core-color-opacity-black-75);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.label1 {
+  height: 24px;
+  width: 117px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.addonRight {
+  background-color: var(--core-color-opacity-black-75);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+}
+.field {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.message {
+  width: 301px;
+  position: relative;
+  line-height: 18px;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  flex-shrink: 0;
+}
+.characterCounter {
+  height: 18px;
+  width: 19px;
+  position: relative;
+  line-height: 18px;
+  text-align: right;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.message1 {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--core-color-opacity-black-400);
+}
+.inputGroupTextFieldAdd {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

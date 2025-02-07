@@ -1,0 +1,58 @@
+.title {
+  text-decoration: none;
+  width: 400px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+}
+.titlecontent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-13xl) 0px;
+  gap: 32px;
+}
+.body {
+  align-self: stretch;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-xl-regular-default-size);
+  color: var(--core-color-solid-slate-1400);
+  font-family: var(--font-ubuntu);
+}
+.buttonGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-13xl) var(--padding-13xl);
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.modalOverlay {
+  height: 720px;
+  width: 512px;
+  margin: 0 !important;
+  position: absolute;
+  border-radius: 32px;
+  background-color: var(--core-color-solid-slate-50);
+  max-width: 512px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 512px;
+}

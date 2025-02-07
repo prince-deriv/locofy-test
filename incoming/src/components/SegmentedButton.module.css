@@ -1,0 +1,12 @@
+.segmentedButton {
+  align-self: stretch;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  color: var(--m3-sys-light-on-secondary-container);
+  font-family: var(--m3-body-small);
+}

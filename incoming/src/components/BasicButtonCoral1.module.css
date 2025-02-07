@@ -1,0 +1,72 @@
+.lefticon {
+  width: 14px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.label {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+  color: inherit;
+  z-index: 1;
+}
+.containerIcon1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.bgFocus {
+  width: calc(100% + 8px);
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% + 8px);
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  border-radius: var(--br-lg);
+  border: 2px solid var(--color-dodgerblue);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.icon {
+  width: 16px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+.basicbuttonCoral {
+  height: 48px;
+  border-radius: var(--br-base);
+  background-color: var(--coral-coral-primary-focus);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xs);
+  min-width: 96px;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-solid-slate-50);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}

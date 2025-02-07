@@ -1,0 +1,105 @@
+.labelText {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.labelTextContainer {
+  width: 31px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputText {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.inputTextContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--schemes-on-surface);
+}
+.content {
+  flex: 1;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-9xs) 0px;
+  box-sizing: border-box;
+}
+.stateLayer {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-9xs) var(--br-9xs) 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-base);
+}
+.textField {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-9xs) var(--br-9xs) 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.activeIndicator {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--schemes-on-surface-variant);
+  box-sizing: border-box;
+  height: 1px;
+  z-index: 1;
+}
+.supportingText {
+  height: 16px;
+  width: 178px;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.supportingText1 {
+  width: calc(100% - 14px);
+  margin: 0 !important;
+  position: absolute;
+  right: 14px;
+  bottom: -20px;
+  left: 0px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-base) 0px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.textField1 {
+  align-self: stretch;
+  border-radius: var(--br-9xs) var(--br-9xs) 0px 0px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--schemes-on-surface-variant);
+  font-family: var(--m3-body-small);
+}

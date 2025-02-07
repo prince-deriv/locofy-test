@@ -1,0 +1,240 @@
+.label {
+  height: 24px;
+  width: 36px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.addonLeft {
+  background-color: var(--core-color-opacity-black-75);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+}
+.label1 {
+  height: 24px;
+  width: 86px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.label2 {
+  height: 24px;
+  width: 8px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.inputFieldMarkerMd {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--component-fieldmarker-label-color-required);
+}
+.labelMarker {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.labelPlaceholderInputCur {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield {
+  flex: 1;
+  background-color: var(--core-color-opacity-black-75);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  color: var(--core-color-opacity-black-300);
+}
+.addonRight {
+  background-color: var(--core-color-opacity-black-75);
+  height: 56px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+}
+.field {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.message1 {
+  width: 301px;
+  position: relative;
+  line-height: 18px;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  flex-shrink: 0;
+}
+.characterCounter {
+  height: 18px;
+  width: 19px;
+  position: relative;
+  line-height: 18px;
+  text-align: right;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.message {
+  width: 360px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--core-color-opacity-black-400);
+}
+.inputGroupTextFieldAdd {
+  width: 224px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 2;
+}
+.parameter4 {
+  width: 240px;
+  border-radius: var(--br-5xs);
+  background-color: var(--core-color-solid-slate-50);
+  height: 72px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-9xs);
+}
+.sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 90%;
+  overflow: auto;
+}
+.chart1Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.chart {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0px 0px;
+  box-sizing: border-box;
+  max-width: calc(100% - 328px);
+}
+.dropdownContainer {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0px 0px;
+  box-sizing: border-box;
+}
+.sidebarParent {
+  align-self: stretch;
+  height: 752px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-5xs) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.tradePageTestDev {
+  width: 100%;
+  position: relative;
+  background-color: var(--core-color-solid-slate-75);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}
+
+@media screen and (max-width: 792px) {
+  .sidebar {
+    display: none;
+  }
+
+  .chart {
+    max-width: 100%;
+  }
+
+  .dropdownContainer {
+    display: none;
+  }
+
+  .sidebarParent {
+    padding-left: var(--padding-5xs);
+    padding-right: var(--padding-5xs);
+    box-sizing: border-box;
+  }
+}

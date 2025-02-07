@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Font Awesome 6 Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --mobile-semantic-typography-body-sm-regular-default: "IBM Plex Sans";
+  --desktop-semantic-typography-icon-standalone-regular-md: "Font Awesome 6 Pro";
+  --font-ubuntu: Ubuntu;
+  --m3-body-small: Roboto;
+  --component-button-label-typography-primary-lg: Inter;
+
+  /* font sizes */
+  --mobile-semantic-typography-body-md-regular-default-size: 16px;
+  --mobile-semantic-typography-body-sm-regular-default-size: 14px;
+  --desktop-semantic-typography-caption-bold-default-size: 12px;
+  --mobile-semantic-typography-body-xl-regular-default-size: 20px;
+  --desktop-extra-small-xs-bold-size: 10px;
+  --font-size-4xs-5: 8.5px;
+
+  /* Colors */
+  --core-color-solid-slate-50: #fff;
+  --m3-sys-light-outline: #79747e;
+  --schemes-on-surface: #1d1b20;
+  --color-gray-500: rgba(255, 255, 255, 0.72);
+  --core-color-opacity-black-300: rgba(0, 0, 0, 0.24);
+  --core-color-opacity-black-75: rgba(0, 0, 0, 0.04);
+  --color-gray-300: rgba(0, 0, 0, 0.16);
+  --core-color-opacity-black-100: rgba(0, 0, 0, 0.08);
+  --core-color-opacity-black-400: rgba(0, 0, 0, 0.48);
+  --core-color-opacity-black-600: rgba(0, 0, 0, 0.72);
+  --core-color-solid-slate-1400: #000;
+  --color-dodgerblue: #2c9aff;
+  --color-mediumseagreen: #00c390;
+  --coral-coral-primary-focus: #c41c28;
+  --component-fieldmarker-label-color-required: #c40000;
+  --color-forestgreen: #008832;
+  --color-red: #e6190e;
+  --core-color-solid-slate-75: #f6f7f8;
+  --system-light-7-secondary-background: #f2f3f4;
+  --schemes-on-surface-variant: #49454f;
+  --color-darkslategray: #414652;
+  --color-darkslategray-100: #333;
+  --button-primary-default: #ff444f;
+  --status-light-danger: #ec3f3f;
+  --schemes-primary: #65558f;
+  --color-blueviolet: #9747ff;
+  --m3-sys-light-secondary-container: #e8def8;
+  --m3-sys-light-on-secondary-container: #4a4459;
+  --status-light-success: #4bb4b3;
+  --status-light-information: #377cfc;
+  --color-royalblue-100: rgba(55, 124, 252, 0.16);
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-7xs: 6px;
+  --gap-11xs: 2px;
+  --gap-325xl: 344px;
+  --gap-539xl-3: 558.3px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-11xs: 2px;
+  --padding-smi: 13px;
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
+  --padding-8xs: 5px;
+  --padding-7xs: 6px;
+  --padding-13xl: 32px;
+  --padding-9xl: 28px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-lg: 18px;
+  --br-xs: 12px;
+  --br-sm: 14px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-77xl: 96px;
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+  --br-81xl: 100px;
+  --br-731xl: 750px;
+  --br-981xl: 1000px;
+  --br-5xl: 24px;
+
+  /* Effects */
+  --core-elevation-shadow-130: 0px 1px 2px rgba(0, 0, 0, 0.06),
+    0px 1px 2px rgba(0, 0, 0, 0.03);
+}

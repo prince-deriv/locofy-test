@@ -1,0 +1,81 @@
+.divider {
+  height: 1px;
+  position: relative;
+  background-color: var(--core-color-opacity-black-100);
+  min-height: 1px;
+  max-height: 40px;
+}
+.containerDivider {
+  align-self: stretch;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-base);
+}
+.divider1 {
+  height: 1px;
+  position: relative;
+  background-color: var(--core-color-opacity-black-100);
+  min-height: 1px;
+  max-height: 1px;
+}
+.groupItemTop {
+  align-self: stretch;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.divider2 {
+  height: 1px;
+  width: 40px;
+  position: relative;
+  background-color: var(--core-color-opacity-black-100);
+  min-height: 1px;
+  max-height: 1px;
+}
+.containerDivider2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+}
+.group1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupItemBottom {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navigationSidebarFixed {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--core-color-solid-slate-50);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0px;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 72px;
+  max-width: 72px;
+  text-align: center;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--schemes-on-surface-variant);
+  font-family: var(--m3-body-small);
+}

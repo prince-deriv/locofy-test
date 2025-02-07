@@ -1,0 +1,40 @@
+.buttonContainer {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--core-color-solid-slate-50);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.purchaseButtons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.footer {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 78px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-solid-slate-50);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

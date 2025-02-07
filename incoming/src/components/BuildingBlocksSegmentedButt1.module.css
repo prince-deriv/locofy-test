@@ -1,0 +1,41 @@
+.labelText {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.stateLayer {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.container {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0px var(--br-81xl) var(--br-81xl) 0px;
+  border: 1px solid var(--m3-sys-light-outline);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.segmentEnd {
+  flex: 1;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) 0px;
+  box-sizing: border-box;
+  margin-left: -1px;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-sm-regular-default-size);
+  color: var(--schemes-on-surface);
+  font-family: var(--m3-body-small);
+}

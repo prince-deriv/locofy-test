@@ -1,0 +1,87 @@
+.divider {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--core-color-opacity-black-100);
+  height: 1px;
+  min-height: 1px;
+  max-height: 40px;
+}
+.containerDivider {
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+}
+.divider1 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--core-color-opacity-black-100);
+  height: 1px;
+  min-height: 1px;
+  max-height: 1px;
+}
+.containerDivider1 {
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+}
+.groupItemTop {
+  align-self: stretch;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.divider2 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--core-color-opacity-black-100);
+  height: 1px;
+  min-height: 1px;
+  max-height: 1px;
+}
+.containerDivider2 {
+  width: 72px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+}
+.groupItemBottom {
+  width: 72px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navigationSidebarFixed {
+  width: 72px;
+  flex: 1;
+  background-color: var(--core-color-solid-slate-50);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0px;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 72px;
+  max-width: 72px;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-xl-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}

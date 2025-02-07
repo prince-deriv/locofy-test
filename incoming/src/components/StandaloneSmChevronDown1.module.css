@@ -1,0 +1,18 @@
+.icon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 8px);
+  line-height: 24px;
+  font-weight: 300;
+}
+.iconChevron {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-solid-slate-1400);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}

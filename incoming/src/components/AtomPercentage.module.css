@@ -1,0 +1,24 @@
+.label {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.root {
+  width: 29px;
+  position: relative;
+  height: 18px;
+  text-align: left;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+  color: var(--core-color-opacity-black-400);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}
+.root[data-type="loss"] .label {
+  color: var(--color-red);
+}
+.root[data-type="profit"] .label {
+  color: var(--color-forestgreen);
+}

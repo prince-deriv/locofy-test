@@ -1,0 +1,11 @@
+.group1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-xl-regular-default-size);
+  color: var(--core-color-opacity-black-600);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}

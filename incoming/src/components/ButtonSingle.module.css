@@ -1,0 +1,74 @@
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.label1 {
+  height: 18px;
+  width: 38px;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.label2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.value {
+  height: 18px;
+  width: 59px;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.value1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.details {
+  width: 342px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--desktop-semantic-typography-caption-bold-default-size);
+}
+.titleDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button1 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-mediumseagreen);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  min-height: 56px;
+  max-height: 56px;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-solid-slate-50);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

@@ -1,0 +1,17 @@
+.label {
+  position: relative;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fieldMarker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--component-fieldmarker-label-color-required);
+  font-family: var(--mobile-semantic-typography-body-sm-regular-default);
+}

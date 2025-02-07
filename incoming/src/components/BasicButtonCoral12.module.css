@@ -1,0 +1,53 @@
+.icon {
+  width: 14px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  text-decoration: none;
+  position: relative;
+  line-height: 16px;
+  font-weight: 800;
+  font-family: var(--component-button-label-typography-primary-lg);
+  color: inherit;
+  display: inline-block;
+  min-width: 43px;
+}
+.icon1 {
+  width: 14px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon2 {
+  width: 16px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styleprimarySizelgWidth {
+  height: 48px;
+  border-radius: var(--br-5xl);
+  background-color: var(--button-primary-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-9xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 96px;
+  min-height: 48px;
+  max-height: 48px;
+  text-align: center;
+  font-size: var(--mobile-semantic-typography-body-md-regular-default-size);
+  color: var(--core-color-solid-slate-50);
+  font-family: var(--desktop-semantic-typography-icon-standalone-regular-md);
+}
